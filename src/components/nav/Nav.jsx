@@ -22,9 +22,9 @@ const Nav = () => {
       className={activeNav === '#experience' ? 'active' : ''} >
       <BiBook/> </a>
 
-      <a href="#service" onClick={()=> setActiveNav('#service')}
+      {/* <a href="#service" onClick={()=> setActiveNav('#service')}
       className={activeNav === '#service' ? 'active' : ''} >
-      <RiServiceLine/> </a>
+      <RiServiceLine/> </a> */}
 
       <a href="#contact" onClick={()=> setActiveNav('#contact')}
       className={activeNav === '#contact' ? 'active' : ''} >
