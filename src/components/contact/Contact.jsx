@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
-import emailjs from'emailjs-com'
-import'./Contact.css'
+import emailjs from '@emailjs/browser';
 import{MdOutlineMailOutline} from 'react-icons/md'
 import{AiOutlineWhatsApp} from 'react-icons/ai'
+import'./Contact.css'
 
 const Contact = () => {
   const form= useRef();
@@ -10,8 +10,10 @@ const Contact = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_pqdnbnl', 'service_pqdnbnl', form.current, 'l9qsy3NRxPyrg4_Rv')
+    emailjs.sendForm('service_pqdnbnl', 'template_aue0dx9', form.current, 'l9qsy3NRxPyrg4_Rv')
       
+    e.target.reset();
+    
   };
 
   return (

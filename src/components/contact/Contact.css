@@ -17,12 +17,12 @@
     border-radius: 1.2rem;
     text-align: center;
     border: 1px solid transparent;
-    transition: var(transition);
+    transition: var(--transition);
 }
 
 .contact_option:hover{
     background: transparent;
-    background-color: var(--color-primary-variant);
+    border-color: var(--color-primary-variant);
 }
 
 .contact_option-icon{
