@@ -1,9 +1,19 @@
-import React from 'react'
+import React, { useRef } from 'react';
+import emailjs from'emailjs-com'
 import'./Contact.css'
 import{MdOutlineMailOutline} from 'react-icons/md'
 import{AiOutlineWhatsApp} from 'react-icons/ai'
 
 const Contact = () => {
+  const form= useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_pqdnbnl', 'service_pqdnbnl', form.current, 'l9qsy3NRxPyrg4_Rv')
+      
+  };
+
   return (
     <section id='contact'>
       <h5>Get In Touch</h5>
@@ -26,7 +36,7 @@ const Contact = () => {
             <a href="https://wa.me/+972586008587" target='_blank'>Send a message</a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name='name' placeholder='Your Full Name ' required/>
           <input type="email" name='email' placeholder='Your Email' required />
           <textarea name="massage"   rows="7" placeholder='Your Message' required></textarea>
