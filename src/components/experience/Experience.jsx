@@ -41,10 +41,17 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-                <h4>React</h4>
+                <h4>TypeScript</h4>
                 <small className='text-light'> Experience</small>
               </div>
-              
+            </article>
+
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon'/>
+              <div>
+                <h4>React.JS</h4>
+                <small className='text-light'> Experience</small>
+              </div> 
             </article>
 
             <article className='experience_details'>
@@ -53,7 +60,6 @@ const Experience = () => {
                 <h4>HTML</h4>
                 <small className='text-light'> Experience</small>
               </div>
-              
             </article>
           </div>
         </div>
@@ -67,47 +73,35 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-                 <h4>Node JS</h4>
+                 <h4>Node.JS</h4>
                 <small className='text-light'> Experience</small>
               </div>
-             
             </article>
 
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
                 <h4>Java</h4>
-                <small className='text-light'> Intermediate</small>
+                <small className='text-light'> Experience</small>
               </div>
-              
             </article>
 
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
                 <h4>MangoDB</h4>
-                <small className='text-light'> Experience</small>
+                <small className='text-light'>Intermediate </small>
               </div>
-              
             </article>
 
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-                <h4>My</h4>
+                <h4>MySQL</h4>
                 <small className='text-light'> Experience</small>
               </div>
-              
             </article>
 
-            <article className='experience_details'>
-              <BsPatchCheckFill className='experience_details-icon'/>
-              <div>
-                <h4>HTML</h4>
-                <small className='text-light'> Experience</small>
-              </div>
-             
-            </article>
           </div>
         </div>
       </div>

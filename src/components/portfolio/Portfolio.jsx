@@ -6,14 +6,13 @@ const data=[
   {
     id:1,
     image:Img,
-    title:'This is a portfolio item title',
+    title:'This portfolio ',
     github:'https://github.com/DaryaShelever/portfolio-react',
-    demo:'https://daryashelever.github.io/portfolio-react/'
   },
   {
     id:2,
     image:Img,
-    title:'This is a portfolio item title',
+    title:'Portfolio for testing ',
     github:'https://github.com/DaryaShelever/portfolio-react',
     demo:'https://daryashelever.github.io/portfolio-react/'
   }
