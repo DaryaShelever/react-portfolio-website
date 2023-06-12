@@ -26,7 +26,7 @@ const Experience = () => {
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
                 <h4>CSS</h4>
-                <small className='text-light'> Intermediate</small>
+                <small className='text-light'> Experience</small>
               </div>
             </article>
 
@@ -57,7 +57,15 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-                <h4>HTML</h4>
+                <h4>Angular</h4>
+                <small className='text-light'> Intermediate</small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon'/>
+              <div>
+                <h4>Redux</h4>
                 <small className='text-light'> Experience</small>
               </div>
             </article>
@@ -81,6 +89,14 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
+                <h4>MangoDB</h4>
+                <small className='text-light'>Intermediate </small>
+              </div>
+            </article>
+
+            <article className='experience_details'>
+              <BsPatchCheckFill className='experience_details-icon'/>
+              <div>
                 <h4>Java</h4>
                 <small className='text-light'> Experience</small>
               </div>
@@ -89,10 +105,11 @@ const Experience = () => {
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>
               <div>
-                <h4>MangoDB</h4>
-                <small className='text-light'>Intermediate </small>
+                <h4>SpringBoot</h4>
+                <small className='text-light'> Experience</small>
               </div>
             </article>
+
 
             <article className='experience_details'>
               <BsPatchCheckFill className='experience_details-icon'/>

@@ -1,18 +1,18 @@
 import React from 'react'
 import './Portfolio.css'
-import Img from '../../assets/portfolio1.jpg'
+import Img from '../../assets/trailPortfolio.png'
 
 const data=[
   {
     id:1,
     image:Img,
     title:'This portfolio ',
-    github:'https://github.com/DaryaShelever/portfolio-react',
+    github:'https://github.com/DaryaShelever/react-portfolio-website',
   },
   {
     id:2,
     image:Img,
-    title:'Portfolio for testing ',
+    title:'Trail portfolio',
     github:'https://github.com/DaryaShelever/portfolio-react',
     demo:'https://daryashelever.github.io/portfolio-react/'
   }
@@ -33,8 +33,11 @@ const Portfolio = () => {
               </div>
               <h3> {title}</h3>
               <div className='portfolio_item-cta'>
-              <a href={github} className='btn'> GitHub</a>
-              <a href={demo} className='btn btn-primery' target='_blank'>Live Demo</a>
+              <a href={github} className='btn'  target='_blank'> GitHub</a>
+              
+              {demo && (
+                <a href={demo} className='btn btn-primery' target='_blank'>Live Demo</a>
+              )}
               </div>
             </article>
           )

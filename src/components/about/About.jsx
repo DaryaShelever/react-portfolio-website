@@ -40,7 +40,7 @@ const About = () => {
             </article>
           </div> */}
           <p>
-           I successfully completed a full stack development course in Java and gained a wide range of skills required to build full-fledged web applications. My portfolio showcases my ability to create elegant and functional websites that are user-friendly and easy to navigate. I am always ready to take on new challenges and strive for constant self-improvement, which enables me to adapt easily to new technologies and development methodologies. My determination and diligence help me achieve results, and my passion for programming allows me to find creative and efficient solutions to complex problems.
+          I completed a Java full stack development course, showcasing my ability to build elegant and user-friendly websites. I am adaptable, determined, and passionate about programming, constantly seeking new challenges and improving my skills.
           </p>
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
         </div>
