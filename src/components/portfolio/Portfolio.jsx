@@ -1,11 +1,12 @@
 import React from 'react'
 import './Portfolio.css'
 import Img from '../../assets/trailPortfolio.png'
+import Img1 from '../../assets/portfolio.png'
 
 const data=[
   {
     id:1,
-    image:Img,
+    image:Img1,
     title:'This portfolio ',
     github:'https://github.com/DaryaShelever/react-portfolio-website',
   },
